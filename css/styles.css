@@ -1,0 +1,37 @@
+.hero-cont {
+  width: Fixed (1, 280px) px;
+  height: Fixed (796px) px;
+  padding: 0px 0px 0px 100px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+  background-color: #576f35;
+}
+.container hero {
+  width: Fixed (504px) px;
+  height: Fixed (564px) px;
+  padding: 0px 0px 52px 0px;
+  gap: 128px;
+  opacity: 0px;
+}
+.hero-tittle {
+  font-family: Inter Tight;
+  font-size: 76px;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fbfbfb;
+}
+.p-hero-tittle {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
