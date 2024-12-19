@@ -1,0 +1,399 @@
+
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+}
+.vegatables {
+    background-color: rgba(122, 49, 69, 1);
+    width: 1, 080px;
+    height: 788px;
+    gap: 24px;
+    opacity: 0px;
+}
+.vegatables-section {
+    width: 335px;
+    height: 204px;
+    gap: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+.vegatables-head {
+    width: 335px;
+    height: 104px;
+    font-family: Inter Tight;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.5em;
+    margin-bottom: 10px;
+}
+.vegatables-section p {
+    width: 335px;
+    height: 80px;
+    font-family: Inter Tight;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(251, 251, 251, 1);
+}
+.vegatables-cards-ul {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.eggplant-card {
+    width: 344px;
+    height: 380px;
+    padding: 20px;
+    border: 2px solid #f1f1f1;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    text-align: center;
+    background-color: rgba(251, 251, 251, 1);
+}
+.eggplant-section {
+    width: 280px;
+    height: 316px;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+.eggplant-text {
+    width: 163px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+}
+.eggplant-head {
+    width: 163px;
+    height: 32px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  rgba(122, 49, 69, 1);
+}
+.eggplant-price {
+    width: 84px;
+    height: 20px;
+    font-family: inter tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 5px 0 0 0;
+}
+.eggplant-img {
+    width: 280px;
+    height: 244px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.leek-card {
+    width: 344px;
+    height: 380px;
+    padding: 20px;
+    border: 2px solid #f1f1f1;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    text-align: center;
+    background-color: rgba(251, 251, 251, 1);
+}
+.leek-section {
+    width: 280px;
+    height: 316px;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+.leek-text {
+    width: 163px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+}
+.leek-head {
+    width: 143px;
+    height: 28px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(122, 49, 69, 1);
+}
+.leek-price {
+    width: 84px;
+    height: 20px;
+    font-family: inter tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 5px 0 0 0;
+}
+.leek-img {
+    width: 280px;
+    height: 244px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.mushrooms-card {
+        width: 344px;
+        height: 380px;
+        padding: 20px;
+        border: 2px solid #f1f1f1;
+        gap: 10px;
+        border-radius: 40px;
+        opacity: 0px;
+        text-align: center;
+        background-color: rgba(251, 251, 251, 1);
+}
+.mushrooms-section {
+    width: 280px;
+    height: 316px;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+.mushrooms-text {
+    width: 163px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+}
+.mushrooms-head {
+    width: 163px;
+    height: 32px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  rgba(122, 49, 69, 1);
+}
+.musrooms-price {
+    width: 84px;
+    height: 20px;
+    font-family: inter tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 5px 0 0 0;
+}
+.mushrooms-img {
+    width: 280px;
+    height: 244px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.corn-card {
+    width: 344px;
+    height: 380px;
+    padding: 20px;
+    border: 2px solid #f1f1f1;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    text-align: center;
+    background-color: rgba(251, 251, 251, 1);
+}
+.corn-section {
+    width: 280px;
+    height: 316px;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+.corn-text {
+    width: 163px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+}
+.corn-head {
+    width: 163px;
+    height: 32px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(122, 49, 69, 1);
+}
+.corn-price {
+    width: 84px;
+    height: 20px;
+    font-family: inter tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 5px 0 0 0;
+}
+.corn-img {
+    width: 280px;
+    height: 244px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.potato-card {
+    width: 163px;
+    height: 32px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(122, 49, 69, 1);
+}
+.potato-section {
+    width: 280px;
+    height: 316px;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+.potato-text {
+    width: 163px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+}
+.potato-head {
+    width: 143px;
+    height: 28px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(122, 49, 69, 1);
+}
+.potato-prize {
+    width: 84px;
+    height: 20px;
+    font-family: inter tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 5px 0 0 0;
+}
+.potato-img {
+    width: 280px;
+    height: 244px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.carrot-card {
+    width: 344px;
+    height: 380px;
+    padding: 20px;
+    border: 2px solid #f1f1f1;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    text-align: center;
+    background-color: rgba(251, 251, 251, 1);
+}
+.carrot-section {
+    width: 280px;
+    height: 316px;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+.carrot-text {
+    width: 163px;
+    height: 64px;
+    gap: 12px;
+    opacity: 0px;
+}
+.carrot-head {
+    width: 163px;
+    height: 32px;
+    gap: 0px;
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(122, 49, 69, 1);
+}
+.carrot-price {
+    width: 84px;
+    height: 20px;
+    font-family: inter tight;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(20, 20, 20, 1);
+    margin: 5px 0 0 0;
+}
+.carrot-img {
+    width: 280px;
+    height: 244px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
