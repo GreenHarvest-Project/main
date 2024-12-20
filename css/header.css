@@ -1,0 +1,184 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+:root {
+  --font-family: "Inter Tight", sans-serif;
+  --black: #141414;
+  --white: #fbfbfb;
+  --chianti: #7a3145;
+  --blush: #d4bfc4;
+  --green: #576f35;
+  --grey: #858585;
+  --transparent: rgba(20, 20, 20, 0.2);
+  --greenlight: #3cbc81;
+  --smthwrong: #e74a3b;
+  --bold: 700;
+  --semibold: 600;
+  --medium: 500;
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.01em;
+  font-weight: var(--medium);
+  color: var(--black);
+  background-color: var(--white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:hover,
+:focus,
+.focus-visible,
+:active {
+  outline: none;
+}
+
+:root {
+  font-size: 16px;
+  line-height: 1.25;
+}
+.header {
+  background-color: #576f35;
+  width: Fixed (1280) px;
+  height: Hug (52px) px;
+  top: 32px;
+  padding: 0px 100px 0px 100px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+}
+.header-nav {
+  width: Fixed (1, 280px) px;
+  height: Hug (52px) px;
+  top: 32px;
+  padding: 0px 100px 0px 100px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+}
+.logo-header {
+  width: 186.67px;
+  height: 16.67px;
+  top: 2.22px;
+  left: 28.89px;
+  gap: 0px;
+  opacity: 0px;
+}
+.header-menu {
+  width: Hug (498px) px;
+  height: Hug (52px) px;
+  gap: 20px;
+  opacity: 0px;
+}
+.header-menu-list {
+  width: Hug (321px) px;
+  height: Hug (44px) px;
+  gap: 8px;
+  opacity: 0px;
+  text-decoration: none;
+  color: white;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-border {
+  width: Hug (118px) px;
+  height: Hug (44px) px;
+  padding: 12px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 12px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.header-shop-btn {
+  border: none;
+  border-radius: 30px;
+  padding: 16px 32px;
+  transition: 0.3s ease-in;
+  background-color: var(--chianti);
+  transition-property: color, background-color;
+  color: white;
+  background-color: #7a3145;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .header {
+    width: Fixed (704px) px;
+    height: Hug (40px) px;
+    top: 32px;
+    left: 32px;
+    gap: 448px;
+    opacity: 0px;
+  }
+  .icon-heroicons-outline_menu-alt-1:before {
+    content: "\e900";
+  }
+}
