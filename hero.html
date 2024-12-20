@@ -10,7 +10,7 @@
     <main>
       <section class="green-hero">
         <div class="hero-cont">
-          <div class="container hero">
+          <div class="container-hero">
             <h1 class="hero-tittle">ORGANIC VEGETABLES FOR YOUR DİET TODAY!</h1>
             <p class="p-hero-tittle">
               Our expertly curated vegetable baskets are made with the freshest,
@@ -20,7 +20,21 @@
             </p>
           </div>
           <div class="hero-img">
-            <img src="./images/basketdesktop.jpg" alt="basket" />
+            <picture class="made-image">
+              <source
+                media="(max-width: 767px)"
+                srcset="/images/basketmobile.jpg"
+              />
+              <source
+                media="(min-width: 768px)and (max-width: 1279px)"
+                srcset="/images/baskettablet.jpg"
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="/images/basketdesktop.jpg"
+              />
+              <img src="./images/basketdesktop.jpg" alt="basket" />
+            </picture>
           </div>
         </div>
       </section>

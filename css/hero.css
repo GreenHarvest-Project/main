@@ -1,3 +1,6 @@
+.hero-tittle .p-hero-tittle {
+  color: white;
+}
 @media only screen and (min-width: 1280px) {
   .green-hero {
     width: Fixed (1, 1280px) px;
@@ -16,7 +19,7 @@
     margin: 0 auto;
     padding: 0;
   }
-  .container hero {
+  .container-hero {
     width: Fixed (504px) px;
     height: Fixed (564px) px;
     padding: 0px 0px 52px 0px;
@@ -50,5 +53,12 @@
     gap: 0px;
     opacity: 0px;
     background-image: linear-gradient(var(--transparent), var(--transparent));
+  }
+  .container-hero {
+    width: Hug (704px) px;
+    height: Hug (312px) px;
+    gap: 24px;
+    opacity: 0px;
+    color: white;
   }
 }

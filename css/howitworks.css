@@ -16,6 +16,9 @@
   clip-path: inset(100%);
   overflow: hidden;
 }
+.green-hero {
+  background-color: rgba(87, 111, 53, 1);
+}
 .how-it-works {
   width: Hug (640px) px;
   height: Hug (760px) px;
@@ -116,7 +119,6 @@ h1 .highlight {
 
   border-color: rgba(212, 191, 196, 1);
 }
-
 .step p {
   margin: 0;
   font-size: 14px;
