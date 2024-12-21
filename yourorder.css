@@ -1,0 +1,447 @@
+/* MOBİL */
+
+.yourOrder {
+    width: 100%;
+    height: 100%;
+    padding: 80px 20px 80px 20px;
+    background-color: rgba(87, 111, 53, 1);
+}
+
+.your_order-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.your_order-main-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    color: rgba(251, 251, 251, 1);
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.harvest-span {
+    color: rgba(212, 191, 196, 1);
+}
+
+.your_order-title-text {
+    width: 335px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(251, 251, 251, 1);
+    margin: 0;
+}
+
+.your_order-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.your_order-left {
+    border: 1px solid rgba(251, 251, 251, 1);
+    border-radius: 30px;
+    width: 335px;
+    height: 552px;
+    background-color: rgba(251, 251, 251, 1);
+    margin-top: 40px;
+    padding: 40px 20px 40px 20px;
+}
+
+.your_order-form-title {
+    width: 295px;
+    height: 140px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: rgba(20, 20, 20, 1);
+    padding-left: 20px;
+}
+
+.from-us-span {
+    color: rgba(122, 49, 69, 1);
+}
+
+.the-form-span {
+    color: rgba(87, 111, 53, 1);
+}
+
+.your_order-form-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+#name,
+#email {
+    width: 295px;
+    height: 48px;
+    border-radius: 30px;
+    border: 1px solid rgba(133, 133, 133, 1);
+    padding-left: 15px;
+
+}
+
+#sport {
+    width: 295px;
+    height: 92px;
+    border: 1px solid rgba(133, 133, 133, 1);
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 14px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: rgba(20, 20, 20, 1);
+}
+
+.your_order-form-btn {
+    border: 1px solid rgba(122, 49, 69, 1);
+    border-radius: 30px;
+    width: 295px;
+    height: 52px;
+    background-color: rgba(122, 49, 69, 1);
+    margin-top: 24px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    color: rgba(251, 251, 251, 1);
+    margin-left: 20px;
+}
+
+.your_order-right {
+    border: 1px solid rgba(122, 49, 69, 1);
+    background-color: rgba(122, 49, 69, 1);
+    width: 335px;
+    height: 456px;
+    border-radius: 30px;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+}
+.your_order-lemon-img-mobil {
+    display: block;
+    width: 295px;
+    height: 272px;
+    margin-left: 20px;
+    margin-top: 0;
+    color: rgba(20, 20, 20, 0.2);
+}
+.your_order-lemon-img-tablet, .your_order-lemon-img-desktop {
+    display: none;
+}
+.your_order-follow-us {
+    display: flex;
+    flex-direction: column;
+    /* width: 295px; */
+
+
+}
+
+.your_order-follow-us p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(212, 191, 196, 1);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.your_order-social-links{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    list-style-type: none;
+    gap: 8px;
+    /* margin-top: 16px; */
+    padding: 0;
+    margin-left: 20px;
+
+}
+.your_order-link{
+    text-decoration: none;
+    color: rgba(251, 251, 251, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    width: 295px;
+}
+.your_order-social{
+    color: rgba(251, 251, 251, 1);
+}
+
+/* TABLET */
+
+@media (min-width: 768px){
+    .yourOrder {
+        width: 768px;
+        height: 1720px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: rgba(87, 111, 53, 1);
+    }
+    .your_order-top{
+        width: 640px;
+        height: 276px;
+        margin-left: 32px;
+    }
+    .your_order-main-title{
+        width: 640px;
+        height: 192px;
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 0;
+    }
+    .your_order-title-text{
+        width: 640px;
+        height: 60px;
+        font-size: 16px;
+    }
+    .your_order-content{
+        gap: 32px;
+    }
+    form {
+        width: 440px;
+        height: 488px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .your_order-left{
+    width: 540px;
+        height: 488px;
+        padding: 72px 100px 72px 100px;
+
+    }
+    /* .your_order-form-border{
+        text-align: center;
+    } */
+    .your_order-form-title{
+        width: 440px;
+        height: 128px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+    .your_order-form-boxes{
+        padding: 0;
+        gap: 16px;
+        width: 440px;
+        height: 232px;
+
+    }
+        #name,
+        #email {
+            width: 440px;
+            height: 52px;
+        }
+
+        #sport {
+            width: 440px;
+            height: 96px;
+            padding: 0;
+            padding-left: 16px;
+            padding-top: 16px;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+        font-size: 16px;
+        }
+        .your_order-form-btn{
+            margin: 0;
+            width: 440px;
+            margin-top: 24px;
+        }
+        .your_order-right{
+            width: 640px;
+            height: 528px;
+            padding: 52px;
+            gap: 52px;
+
+        }
+                .your_order-lemon-img-tablet {
+                    display: block;
+                    width: 536px;
+                    height: 316px;
+                    margin-left: 52px;
+                    color: rgba(20, 20, 20, 0.2);
+                }
+
+                .your_order-lemon-img-mobil,
+                .your_order-lemon-img-desktop {
+                    display: none;
+                }
+        .your_order-follow-us{
+            margin-left: 52px;
+            padding: 0;
+            text-align: start;
+        }
+                .your_order-follow-us p {
+                    margin-left: 0;
+                }
+                .your_order-social-links{
+                    margin-left: 0;
+                }
+
+}
+
+
+        /* DESKTOP */
+@media (min-width: 1280px) {
+    .yourOrder {
+        width: 100%;
+        height: 1036px;
+        padding: 100px;
+    }
+
+    .your_order-top {
+        width: 751px;
+        height: 192px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 52px;
+    }
+
+    .your_order-main-title {
+        width: 751px;
+        height: 128px;
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 24px;
+    }
+
+    .your_order-title-text {
+        width: 742px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 24px;
+    }
+
+    .your_order-content {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    form {
+        width: 428px;
+        height: 488px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .your_order-left {
+        width: 524px;
+        height: 592px;
+        padding: 52px 48px 52px 48px;       
+        gap: 10px;
+
+    }
+
+    /* .your_order-form-border{
+        text-align: center;
+    } */
+    .your_order-form-title {
+        width: 428px;
+        height: 128px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+
+    .your_order-form-boxes {
+        padding: 0;
+        gap: 16px;
+        width: 428px;
+        height: 232px;
+
+    }
+
+    #name,
+    #email {
+        width: 428px;
+        height: 52px;
+    }
+
+    #sport {
+        width: 428px;
+        height: 96px;
+        padding: 0;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 16px;
+    }
+
+    .your_order-form-btn {
+        margin: 0;
+        width: 428px;
+        margin-top: 24px;
+    }
+
+    .your_order-right {
+        width: 524px;
+        height: 644px;
+        padding: 52px 48px 52px 48px;
+        margin-top: 40px;
+        gap: 80px;
+    }
+
+    .your_order-lemon-img-desktop {
+        display: block;
+        width: 428px;
+        height: 352px;
+        margin-left: 48px;
+        color: rgba(20, 20, 20, 0.2);
+    }
+
+    .your_order-lemon-img-mobil,
+    .your_order-lemon-img-tablet {
+        display: none;
+    }
+
+    .your_order-follow-us {
+        margin-left: 52px;
+        padding: 0;
+        text-align: start;
+    }
+
+    .your_order-follow-us p {
+        margin-left: 0;
+    }
+
+    .your_order-social-links {
+        margin-left: 0;
+    }
+
+}
